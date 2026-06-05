@@ -22,7 +22,9 @@ Together, these findings indicate that habitual morning bedscrolling interferes 
 
 ## The SOLUTION
 
-The solution is actually quite simple. The considerable significant effort required for productivity is actuall just in order to overcome this inertia.
+The solution is actually quite simple. The considerable significant effort required for productivity is actually just in order to overcome this inertia.
+<br><br>
+"If you do not open your sails, will you be able to harness the wind"
 <br>
 <img width="460" height="308" alt="graph" src="https://github.com/user-attachments/assets/ee7dba4e-04a4-485b-acf6-25f1ba361c2c" />
 <br>
