@@ -32,7 +32,38 @@ The solution is actually quite simple. The considerable significant effort requi
 <br><br>
 Quite poetically, your "Productivity Inertia" gained after overcoming sleep inertia helps you throughout your day.
 
+Productivity inertia is the psychological and physical resistance to transitioning between states of work and rest. This inertia is what takes us through our work and is one of the responsible factors for us entering the flow state.
+
 Warden is built around this very concept, to overcome sleep inertia and gaining productivity inertia.
+
+## The IMPLEMENTATION
+
+Warden is designed to **reduce morning phone dependency** and help users **transition more effectively from sleep to productive activity**. By limiting access to distracting applications during the morning, Warden aims to **reduce** behaviors associated with **prolonged sleep inertia**, **attention fragmentation**, and **unintentional time loss caused by bedscrolling**.
+
+To create a personalized focus period, Warden considers the following user-defined parameters:
+
+* **Wake-up** time window
+* Estimated **duration** of the **morning routine**
+* **Additional focus time** desired after the morning routine
+
+Based on these inputs, Warden **automatically restricts access** to **selected applications** for the calculated duration.
+
+To ensure that essential functionality remains available, Warden includes an **Allowed Apps** list where users can add applications required for communication, navigation, productivity, or emergencies.
+
+To encourage positive morning habits, Warden also provides an optional early-unlock mechanism. Users can scan items associated with their morning routine, such as:
+
+* Toothbrush
+* Coffee mug
+* Study materials
+* Laptop
+* Books
+* Other designated objects
+
+Successfully completing these actions allows users to regain access to their device before the restriction period ends. This transforms routine morning activities into rewarding actions and creates a direct incentive to begin the day productively.
+
+Together, these features help users establish momentum early in the day, reduce unnecessary screen time after waking, and build more intentional morning routines.
+
+The application's features and implementation are described in detail in the following sections.
 
 ## Features
 
