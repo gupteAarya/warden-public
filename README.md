@@ -38,6 +38,8 @@ Warden is built around this very concept, to overcome sleep inertia and gaining 
 
 ## The IMPLEMENTATION
 
+**Please note that this project is NOT VIBE-CODED**
+
 Warden is designed to **reduce morning phone dependency** and help users **transition more effectively from sleep to productive activity**. By limiting access to distracting applications during the morning, Warden aims to **reduce** behaviors associated with **prolonged sleep inertia**, **attention fragmentation**, and **unintentional time loss caused by bedscrolling**.
 
 To create a personalized focus period, Warden considers the following user-defined parameters:
@@ -67,11 +69,67 @@ The application's features and implementation are described in detail in the fol
 
 ## Features
 
+### WardenLock
+
+<table>
+<tr>
+<td width="65%">
+
+The apps core function. The **access restriction engine** that activates in the mornings to limit phone usage.
+
+Its a completely **persistent, undismissable overlay** that stays on the screen until the scheduled time ends.
+
+The overlay serves as the ***primary enforcement mechanism*** of Warden. During an active focus period, it is displayed as a **full-screen overlay** above restricted applications, preventing access until the restriction period expires or an approved **early-unlock action** is completed.
+
+The overlay is designed to be **visually simple and distraction-free**. Rather than presenting excessive information, it focuses the user's attention on a small set of **essential elements**, including the remaining restriction time, the current focus objective, and available unlock options. This **minimalist design** discourages prolonged interaction with the device.
+
+The overlay remains **persistent throughout** and automatically reappears whenever a restricted application is opened.
+
+The overall design philosophy is centered around ***interruption rather than punishment***. Instead of overwhelming users with warnings or notifications, the overlay acts as a **gentle but unavoidable reminder** of the user's commitment to their morning routine and focus goals.
+
+</td>
+<td align="center">
+<img src="https://github.com/user-attachments/assets/db6e9cbb-fe2f-4dc1-91be-54bf82eafb5b">
+<br>
+<em>The WardenLock Overlay</em>
+</td>
+</tr>
+</table>
+
+### Allowed Apps
+
+<table>
+<tr>
+<td width="65%">
+
+The apps core function. The **access restriction engine** that activates in the mornings to limit phone usage.
+
+Its a completely **persistent, undismissable overlay** that stays on the screen until the scheduled time ends.
+
+The overlay serves as the ***primary enforcement mechanism*** of Warden. During an active focus period, it is displayed as a **full-screen overlay** above restricted applications, preventing access until the restriction period expires or an approved **early-unlock action** is completed.
+
+The overlay is designed to be **visually simple and distraction-free**. Rather than presenting excessive information, it focuses the user's attention on a small set of **essential elements**, including the remaining restriction time, the current focus objective, and available unlock options. This **minimalist design** discourages prolonged interaction with the device.
+
+The overlay remains **persistent throughout** and automatically reappears whenever a restricted application is opened.
+
+The overall design philosophy is centered around ***interruption rather than punishment***. Instead of overwhelming users with warnings or notifications, the overlay acts as a **gentle but unavoidable reminder** of the user's commitment to their morning routine and focus goals.
+
+</td>
+<td width="35%" align="center">
+<img src="https://github.com/user-attachments/assets/db6e9cbb-fe2f-4dc1-91be-54bf82eafb5b" width="300">
+<br>
+<em>The WardenLock Overlay</em>
+</td>
+</tr>
+</table>
+
 - Scanner
 - Morning Routine
 - Statistics
 - Habit Building
 - etc.
+
+
 
 ## Screenshots
 
