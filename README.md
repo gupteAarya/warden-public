@@ -88,8 +88,8 @@ The overlay remains **persistent throughout** and automatically reappears whenev
 The overall design philosophy is centered around ***interruption rather than punishment***. Instead of overwhelming users with warnings or notifications, the overlay acts as a **gentle but unavoidable reminder** of the user's commitment to their morning routine and focus goals.
 
 </td>
-<td align="center">
-<img src="https://github.com/user-attachments/assets/db6e9cbb-fe2f-4dc1-91be-54bf82eafb5b">
+<td width="35%" align="center">
+<img alt="WardenLock Overlay" src="https://github.com/user-attachments/assets/db6e9cbb-fe2f-4dc1-91be-54bf82eafb5b">
 <br>
 <em>The WardenLock Overlay</em>
 </td>
@@ -102,23 +102,46 @@ The overall design philosophy is centered around ***interruption rather than pun
 <tr>
 <td width="65%">
 
-The apps core function. The **access restriction engine** that activates in the mornings to limit phone usage.
+The **Allowed Apps** section within the **WardenLock overlay** serves as both a **utility feature** and a **contingency mechanism**.
 
-Its a completely **persistent, undismissable overlay** that stays on the screen until the scheduled time ends.
+Users can add **essential applications** that may be required during a focus session, including **emergency and communication tools** such as Phone, Messages, Camera, and WhatsApp, as well as **productivity-oriented applications** such as web browsers and AI assistants like ChatGPT and Gemini.
 
-The overlay serves as the ***primary enforcement mechanism*** of Warden. During an active focus period, it is displayed as a **full-screen overlay** above restricted applications, preventing access until the restriction period expires or an approved **early-unlock action** is completed.
+To maintain the effectiveness of the **restriction system**, applications that are widely associated with **distraction and excessive engagement** cannot be added to the Allowed Apps list. According to a [DeskTime case study](https://desktime.com/blog/most-used-productive-unproductive-apps/), platforms such as **YouTube, Instagram, Facebook, and TikTok** consistently rank among the **most unproductive applications** in terms of time consumption and workplace distraction.
 
-The overlay is designed to be **visually simple and distraction-free**. Rather than presenting excessive information, it focuses the user's attention on a small set of **essential elements**, including the remaining restriction time, the current focus objective, and available unlock options. This **minimalist design** discourages prolonged interaction with the device.
+The **Allowed Apps list** is fully customizable. Applications that a user personally finds distracting can be removed at any time, even if they are permitted by default. For example, although **WhatsApp** is primarily a communication platform, the same [DeskTime case study](https://desktime.com/blog/most-used-productive-unproductive-apps/) reported it as one of the **most distracting applications** in both 2024 and 2025. Users who experience similar distractions can simply remove it from their Allowed Apps list.
 
-The overlay remains **persistent throughout** and automatically reappears whenever a restricted application is opened.
-
-The overall design philosophy is centered around ***interruption rather than punishment***. Instead of overwhelming users with warnings or notifications, the overlay acts as a **gentle but unavoidable reminder** of the user's commitment to their morning routine and focus goals.
+To support this approach, Warden implements an **application-filtering algorithm** that automatically rejects specific categories of apps that are considered **unproductive in general**.
 
 </td>
 <td width="35%" align="center">
-<img src="https://github.com/user-attachments/assets/db6e9cbb-fe2f-4dc1-91be-54bf82eafb5b" width="300">
+<img alt="Allowed Apps" src="https://github.com/user-attachments/assets/fc841de6-f386-4956-94af-881728a60d53">
 <br>
-<em>The WardenLock Overlay</em>
+<em>Allowed Apps</em>
+</td>
+</tr>
+</table>
+
+### Morning Routine Scanning
+
+<table>
+<tr>
+<td width="65%">
+
+The **Allowed Apps** section within the **WardenLock overlay** serves as both a **utility feature** and a **contingency mechanism**.
+
+Users can add **essential applications** that may be required during a focus session, including **emergency and communication tools** such as Phone, Messages, Camera, and WhatsApp, as well as **productivity-oriented applications** such as web browsers and AI assistants like ChatGPT and Gemini.
+
+To maintain the effectiveness of the **restriction system**, applications that are widely associated with **distraction and excessive engagement** cannot be added to the Allowed Apps list. According to a [DeskTime case study](https://desktime.com/blog/most-used-productive-unproductive-apps/), platforms such as **YouTube, Instagram, Facebook, and TikTok** consistently rank among the **most unproductive applications** in terms of time consumption and workplace distraction.
+
+The **Allowed Apps list** is fully customizable. Applications that a user personally finds distracting can be removed at any time, even if they are permitted by default. For example, although **WhatsApp** is primarily a communication platform, the same [DeskTime case study](https://desktime.com/blog/most-used-productive-unproductive-apps/) reported it as one of the **most distracting applications** in both 2024 and 2025. Users who experience similar distractions can simply remove it from their Allowed Apps list.
+
+To support this approach, Warden implements an **application-filtering algorithm** that automatically rejects specific categories of apps that are considered **unproductive in general**.
+
+</td>
+<td width="35%" align="center">
+<img alt="Allowed Apps" src="https://github.com/user-attachments/assets/fc841de6-f386-4956-94af-881728a60d53">
+<br>
+<em>Allowed Apps</em>
 </td>
 </tr>
 </table>
