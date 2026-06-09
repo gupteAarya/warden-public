@@ -149,8 +149,31 @@ To support this approach, Warden implements an **application-filtering algorithm
 </tr>
 </table>
 
-- Scanner
-- Morning Routine
+### Emergency Unlock
+
+<table>
+<tr>
+<td width="65%">
+
+Warden includes an **Emergency Unlock** mechanism to ensure that user safety and accessibility are never compromised during an active WardenLock session.
+
+In situations where immediate access to the device is required, users can navigate to the **Allowed Apps** section and activate the **Emergency Unlock** option. This temporarily removes all restrictions and grants unrestricted access to the device for **five minutes**.
+
+Unlike other unlocking methods, the Emergency Unlock is intentionally designed as a **fallback mechanism** rather than a routine method of bypassing restrictions. While WardenLock is designed to be highly resistant to circumvention, emergency situations require a balance between **focus enforcement** and **user safety**.
+
+To reduce impulsive usage, the Emergency Unlock process includes a **30-second waiting period** before activation. This brief delay introduces a moment of reflection, helping users distinguish genuine emergencies from momentary urges to access distracting applications.
+
+By combining accessibility with intentional friction, the Emergency Unlock system tries to ensure that users can always access their devices when necessary while preserving the effectiveness of the overall restriction system.
+
+</td>
+<td width="35%" align="center">
+<img alt="Warden Emergency" src="https://github.com/user-attachments/assets/fcab78a5-1f11-4c5d-b8fa-8e89b945a362">
+<br>
+<em>Emergency Unlocks</em>
+</td>
+</tr>
+</table>
+
 - Statistics
 - Habit Building
 - etc.
