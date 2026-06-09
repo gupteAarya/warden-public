@@ -96,32 +96,35 @@ The overall design philosophy is centered around ***interruption rather than pun
 </tr>
 </table>
 
-### Allowed Apps
+### Morning Routine Scanner
 
 <table>
 <tr>
 <td width="65%">
 
-The **Allowed Apps** section within the **WardenLock overlay** serves as both a **utility feature** and a **contingency mechanism**.
+The only way to complete a **WardenLock session** early is by scanning an object that is part of the user's **morning routine**.
 
-Users can add **essential applications** that may be required during a focus session, including **emergency and communication tools** such as Phone, Messages, Camera, and WhatsApp, as well as **productivity-oriented applications** such as web browsers and AI assistants like ChatGPT and Gemini.
+These objects are selected during **onboarding** and can be modified at any time through the application's settings. Common examples include a **toothbrush**, **coffee mug**, **study materials**, **laptop**, **gym equipment**, or any other item that is consistently associated with the user's morning routine.
 
-To maintain the effectiveness of the **restriction system**, applications that are widely associated with **distraction and excessive engagement** cannot be added to the Allowed Apps list. According to a [DeskTime case study](https://desktime.com/blog/most-used-productive-unproductive-apps/), platforms such as **YouTube, Instagram, Facebook, and TikTok** consistently rank among the **most unproductive applications** in terms of time consumption and workplace distraction.
+By requiring interaction with a ***real-world object***, Warden encourages users to **physically leave their bed** and begin their intended activities before regaining **unrestricted access** to their device. This creates a direct connection between ***productive behavior and reward***, making it easier for users to build **consistent morning habits**.
 
-The **Allowed Apps list** is fully customizable. Applications that a user personally finds distracting can be removed at any time, even if they are permitted by default. For example, although **WhatsApp** is primarily a communication platform, the same [DeskTime case study](https://desktime.com/blog/most-used-productive-unproductive-apps/) reported it as one of the **most distracting applications** in both 2024 and 2025. Users who experience similar distractions can simply remove it from their Allowed Apps list.
+The **object scan** serves as a ***verification mechanism*** that the user has actively started their morning routine rather than simply bypassing the restriction. Once a **valid object** is detected, the remaining **WardenLock duration** is reduced, allowing users to complete their focus session earlier.
 
-To support this approach, Warden implements an **application-filtering algorithm** that automatically rejects specific categories of apps that are considered **unproductive in general**.
+This approach was chosen to shift the user's attention away from the ***digital environment*** and toward ***real-world actions***. Rather than relying solely on **willpower**, Warden uses ***environmental cues*** and ***positive reinforcement*** to encourage productive behavior and establish ***morning momentum***.
+
 
 </td>
 <td width="35%" align="center">
-<img alt="Allowed Apps" src="https://github.com/user-attachments/assets/fc841de6-f386-4956-94af-881728a60d53">
+<img alt="Morning Routine Scanner
+" src="https://github.com/user-attachments/assets/b2b0b073-50ac-4fb4-8e13-19c38a4ae65a">
 <br>
-<em>Allowed Apps</em>
+<em>Morning Routine Scanner
+</em>
 </td>
 </tr>
 </table>
 
-### Morning Routine Scanning
+### Allowed Apps
 
 <table>
 <tr>
