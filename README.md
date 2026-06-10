@@ -174,36 +174,96 @@ By combining accessibility with intentional friction, the Emergency Unlock syste
 </tr>
 </table>
 
-- Statistics
-- Habit Building
-- etc.
+### Statistics
 
+<table>
+<tr>
+<td width="65%">
+  
+To provide users with ***clear insights into their device usage*** and enable ***data-driven habit improvement***, Warden displays a comprehensive set of usage statistics directly on the **Home Screen**.
 
+Key metrics include:
+
+* **Screen Time**
+* **Screen Time Review**
+* **Top Used Apps**
+* **Device Unlocks**
+* **Notifications Received**
+* **Cumulative Weekly Screen Time**
+
+These statistics are presented using a ***visually appealing yet easy-to-understand interface***. The design allows users to quickly interpret their usage patterns without requiring detailed analysis.
+
+By making phone usage data readily available, Warden helps users develop a greater awareness of their digital habits. Users can identify patterns of excessive usage, monitor their progress over time, and evaluate the effectiveness of their focus routines.
+
+The statistics also serve as a form of ***behavioral feedback***. During initial testing, users reported consciously reducing the number of device unlocks after observing high values on the **Unlocks Graph**. This suggests that increased visibility of usage patterns can encourage users to make more intentional decisions regarding their phone usage.
+
+By transforming raw usage data into meaningful insights, Warden enables users to not only restrict distractions but also ***understand and improve the habits that create them***.
+
+</td>
+<td width="35%" align="center">
+<img alt="Warden Statistics" src="https://github.com/user-attachments/assets/84fff5c9-f84a-43dd-977d-df45f30cd6e5">
+<br>
+<em>Statistics</em>
+</td>
+</tr>
+</table>
 
 ## Screenshots
 
-(images)
+<table>
+<tr>
+<td><img src="https://github.com/user-attachments/assets/3ad47b3c-0263-4f94-bdfb-779ac1eb84cd" width="220"></td>
+<td><img src="https://github.com/user-attachments/assets/694af787-1b06-47fd-856c-00a6d9410df0" width="220"></td>
+<td><img src="https://github.com/user-attachments/assets/7ad2d015-1e87-4e4b-8174-0134e3f9ee78" width="220"></td>
+</tr>
+<tr>
+<td><img src="https://github.com/user-attachments/assets/fa3c711c-d328-4beb-8ff9-7c542d08ac81" width="220"></td>
+<td><img src="https://github.com/user-attachments/assets/13ce27d2-6746-49a4-a54c-92918ac273ea" width="220"></td>
+<td><img src="https://github.com/user-attachments/assets/d5a1ed37-e2d0-4d34-a0ea-1b67762cbcaf" width="220"></td>
+</tr>
+</table>
 
-## Demo
+<p align="center">
+  <em>WardenLock</em>
+</p>
 
-(gifs)
+<br><br>
+
+<table>
+<tr>
+<td><img src="https://github.com/user-attachments/assets/c9ac5ce3-61a2-4a63-b44f-df15dc301660" width="220"></td>
+<td><img src="https://github.com/user-attachments/assets/09028b2e-80b9-49d4-9b33-d5d3b2c71ee8" width="220"></td>
+<td><img src="https://github.com/user-attachments/assets/4798e562-b01c-4269-bca8-60a2c667f2dd" width="220"></td>
+</tr>
+<tr>
+<td><img src="https://github.com/user-attachments/assets/3dd843ea-3e89-4485-8a97-afd9009449ab" width="220"></td>
+<td><img src="https://github.com/user-attachments/assets/2bb4fdd2-64d1-40a5-8a79-91b7219d184c" width="220"></td>
+<td></td>
+</tr>
+</table>
+
+<p align="center">
+  <em>Home Screen</em>
+</p>
+
+## Technical Stack
+
+### Mobile App
+- Kotlin
+- Jetpack Compose
+- Android Studio
+- Android SDK
+
+### Cloud
+- Fireabse Cloud Messaging
+- Google AdMob
+
+## Version Control
+- GitHub
 
 ## Architecture
 
 (high-level diagram)
-
-## Technical Stack
-
-- Kotlin
-- Compose
-- Firebase
-- etc.
-
-## Testing
-
-- Number of testers
-- Bugs fixed
-- Features added from feedback
 
 ## Privacy
 
