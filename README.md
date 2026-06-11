@@ -257,6 +257,7 @@ By transforming raw usage data into meaningful insights, Warden enables users to
 ### Cloud
 - Fireabse Cloud Messaging
 - Google AdMob
+- Google ML Kit
 
 ## Version Control
 - GitHub
