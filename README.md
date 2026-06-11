@@ -259,21 +259,31 @@ By transforming raw usage data into meaningful insights, Warden enables users to
 - Google AdMob
 - Google ML Kit
 
-## Version Control
+### Version Control
 - GitHub
 
 ## Architecture
 
-(high-level diagram)
+All core application logic and system design were developed manually without the use of AI-generated code.
+
+Several components, including the **object evaluation algorithm**, were specifically designed and optimized for Warden's use case and requirements.
+
+As Warden is both a project and a product under active development, its source code remains private. Public documentation focuses on functionality rather than implementation details.
 
 ## Privacy
+User data is processed and evaluated ***locally on the device*** wherever possible.
 
-High-level privacy principles.
+Warden does not knowingly share user data with **third-party services**. Information such as application usage statistics, screen time metrics, unlock counts, and object recognition results are processed directly on the user's device.
+
+[Read Privacy Policy](https://wardenlanding.vercel.app/privacy.html)
 
 ## Roadmap
 
-Future plans.
+Warden is under active development, with several improvements and new features planned for future releases. Development progress may vary depending on academic commitments, but the project continues to be maintained and refined.
+
+Further details regarding upcoming features will be shared as they become available.
 
 ## Status
 
-Actively maintained.
+**Actively Maintained**
+
