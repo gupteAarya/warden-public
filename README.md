@@ -6,6 +6,9 @@ Warden is a simple yet powerful app designed to improve your morning routine. By
 
 Warden is built to help you start your day with intention. Instead of getting trapped in endless scrolling, Warden encourages healthier habits and helps you focus on your morning goals.
 
+[Visit the Website](https://wardenlanding.vercel.app/)
+. The App will soon be available for download on the Google Play Store.
+
 ## The Problem
 
 Research suggests that smartphone and social media use around the sleep–wake cycle can negatively affect cognitive performance, sleep quality, mood, and daytime functioning. 
